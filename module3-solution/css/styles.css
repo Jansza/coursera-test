@@ -1,0 +1,57 @@
+.navbar-default {
+    background-color: #999999;
+    border: 1px solid black;
+    border-radius:0px;
+}
+
+.navbar-default .navbar-brand {
+    color: black;
+}
+
+ul.navbar-nav {
+    margin: 0px -15px;
+}
+
+li {
+    border-top: 1px solid black;
+    margin: 0px;
+    padding: 5px;
+    background-color: #cafebabe;
+}
+
+.navbar-toggle.collapsed {
+    border: 2px solid black;
+}
+
+.navbar-toggle {
+    border: 2px solid #DDDDDD;
+    background: transparent;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #DDDDDD;
+}
+
+.navbar-default .navbar-toggle.collapsed .icon-bar {
+    background-color: black;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border: 0px;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+.mmm {
+    background-color: #999999;
+    margin:30px;
+    padding: 20px;
+    height: 2000px; /** to enforce the need for a scrollbar **/
+}
+
